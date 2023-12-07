@@ -1,0 +1,21 @@
+{
+    "titulo": "QIVA Benefits",
+    "frase": "Discover all the features to operate safely.",
+    "beneficios": [
+      {
+        "id": 1,
+        "imagen": "nakamoto.svg",
+        "textoBoton": "Discover benefit"
+      },
+      {
+        "id": 2,
+        "imagen": "comercio.avif",
+        "textoBoton": "See benefit"
+      },
+      {
+        "id": 3,
+        "imagen": "compu.avif",
+        "textoBoton": "See benefit"
+      }
+    ]
+  }

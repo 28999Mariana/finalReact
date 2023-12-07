@@ -1,0 +1,27 @@
+{
+  "nombre": "QIVA",
+  "secundario": " Quantum International Value Alliance",
+  "imagen": "mujer-maleta-sin-fondo.png",
+  "descripcion": "Welcome to Quantum Bank, where financial possibilities are redefined through innovation and excellence. At Quantum, we embody a vision that goes beyond conventional banking, offering a transformative journey towards financial empowerment. Explore a universe of cutting-edge banking services, where the synergy of technology and personalized solutions converges. Quantum Bank is your gateway to a new era of banking, seamlessly blending online convenience with a global reach..",
+  
+  "contacto": [
+    {
+      "id": 1,
+      "icono": "",
+      "url": "mailto:batman@example.com"
+    },
+    {
+      "id": 2,
+      "icono": "",
+      "url": "https://www.facebook.com/BatmanOfficial"
+    },
+    {
+      "id": 3,
+      "icono": "",
+      "url": "https://twitter.com/Batman"
+    }
+  ]
+
+  
+     
+}

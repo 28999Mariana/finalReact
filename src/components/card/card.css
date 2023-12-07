@@ -1,0 +1,31 @@
+.card img{
+    width: 120px;
+    height: 91px;
+    margin-top: -50px;
+    margin-left: -5%;
+}
+.card span{
+    font-size: 19px;
+    color:red;
+    margin-left: 110px;
+    margin-top: -60px;
+}
+
+@media (max-width: 320px) {
+    .card{
+        display: block;
+    }
+    .card img {
+      width: 100%; /* O ajusta según sea necesario */
+      height: auto; /* O ajusta según sea necesario */
+      margin-top: 0;
+      margin-left: 0;
+    }
+  
+    .card span {
+      font-size: 16px; /* O ajusta según sea necesario */
+      color: red;
+      margin-left: 0;
+      margin-top: 5px; /* O ajusta según sea necesario */
+    }
+  }

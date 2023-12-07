@@ -1,0 +1,134 @@
+.container-coberturas h2{
+    position: absolute;
+    margin-left: -25%;
+    margin-top: -20%;
+    font-size: 42px;
+}
+.container-coberturas h2:hover{
+    color: rgb(204, 198, 198);
+}
+.container-coberturas h3{
+    position: absolute;
+    margin-left: -25%;
+    margin-top: -10%;
+    font-size: 30px;
+    font-weight: 400;
+}
+.container-coberturas h3:hover{
+    color:rgb(204, 198, 198);
+}
+.container-coberturas i{
+    position: absolute;
+    top: -70%;
+    left: 100%;
+    font-size: 50px;
+}
+.container-coberturas i:hover {
+    animation: vibrate 0.25s infinite;
+}
+.container-coberturas h5{
+  font-size: 24px;
+  width: 300px;
+  padding: 10px;
+  margin-left: -70px;
+  letter-spacing: 1px;
+}  
+  @keyframes vibrate {
+    0% {
+      transform: translate(0, 0);
+    }
+    25% {
+      transform: translate(-4px, 4px);
+    }
+    50% {
+      transform: translate(0, 0);
+    }
+    75% {
+      transform: translate(4px, -4px);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+
+
+.container-coberturas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .container-coberturas table {
+    width: 800px;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container-coberturas table td,
+  th {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-size: 22px;
+  }
+
+th {
+  text-align: left;
+  background-color: #ffffff5c;
+}
+  
+.container-coberturas tbody tr:hover  {
+    background-color: rgba(255, 255, 255, 0.3);
+    
+}
+
+.fila-hover:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+  
+.celda-hover {
+    position: relative;
+}
+  
+.celda-hover:hover:before   {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -9999px;
+    bottom: -9999px;
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: -1;
+}
+.container-coberturas button{
+  font-size: 19px;
+  color: rgb(206, 13, 13);
+  background-color: #fff;
+  border: none; 
+}
+@media only screen and (max-width: 320px) {
+  .container-coberturas {
+    top: 50%;
+  }
+  .container-coberturas h2{
+    font-size: 23px;
+  }
+  .container-coberturas h2,
+  .container-coberturas h3,
+  .container-coberturas i {
+    position: static;
+    margin-left: 0;
+    margin-top: 0;
+    font-size: 23px;
+  }
+  .container-coberturas i{
+    padding: 10px;
+  }
+  .container-coberturas table {
+    width: 100%;
+  }
+}
+
+  

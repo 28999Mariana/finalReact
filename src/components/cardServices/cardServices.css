@@ -1,0 +1,46 @@
+.cardServices{  /* cada card */
+    background-color: var(--primer-color);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    height: 350px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    margin-bottom: 3%;
+    row-gap: 0.5rem;
+    cursor: pointer;
+    
+  }
+  
+  .cardServices:hover{
+    outline: 1px solid #fff;
+  }
+  
+  .cardServices > img {
+    width: 200px;
+  }
+  
+  .cardServices > p{
+    width: 50%;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 320px) {
+    .cardServices {
+      width: 80%;
+      height: auto;
+      display: column;
+      padding: 20px; 
+    }
+    .cardServices h3{
+      font-size: 18px;
+    }
+    .cardServices > img {
+      width: 100px;
+    }
+  
+    .cardServices > p {
+      width: 100%;
+    }
+  }  

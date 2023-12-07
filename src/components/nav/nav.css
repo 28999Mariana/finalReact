@@ -1,0 +1,68 @@
+
+.nav {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  background-color: rgb(175, 16, 16);
+  height: 70px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.nav:hover{
+  background-color: rgb(206, 21, 21);
+}
+.nav .icon {
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 31px; 
+}
+.nav ul li:hover{
+  background-color: rgb(223, 26, 26);
+}
+
+.nav ul {
+  width: 300px;
+  list-style: none;
+  margin-top:21%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  display: none; /* oculto la lista por defecto */
+  background-color: rgb(167, 10, 10);
+  font-size: 18px;
+}
+
+.nav ul li {
+  padding: 15px;
+}
+
+.nav ul.open {
+  display: flex; /* Mostrar la lista cuando tiene la clase 'open' */
+}
+
+@media (max-width: 768px) {
+  .nav ul {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+  }
+
+  .nav ul li {
+    color: white;
+    
+  }
+}
+
+@media (max-width: 320px) {
+  .nav {
+    justify-content: space-between; 
+  }
+
+  .nav ul {
+    top: 8px;
+  }
+  .nav .icon{
+    margin-left: 28px;
+  }
+}

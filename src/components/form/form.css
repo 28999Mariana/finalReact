@@ -1,0 +1,152 @@
+.body-form{
+  background-color: white;
+}
+
+.div-cotizador {
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 30%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.div-cotizador h2{
+    color:#545252;
+}  
+.center {
+    text-align: center;
+}
+.selector{
+  color:rgba(0, 0, 0, 0.1);
+  background-color: rgb(154, 154, 234);
+}  
+.separador {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.opciones{
+  color: #494747;
+} 
+
+.metros-cuadrados{
+  background-color: white;
+  color:rgb(68, 66, 66); 
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+  
+select, input {
+  width: 100%;
+  padding: 8px;
+  padding-top: -30%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  font-size: 20px;
+  color:#4c4a4a;
+}
+.selector{
+  color:#333;
+}
+.button {
+  background-color: rgb(224, 44, 44);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+.importe button.guardar {
+  margin-left: -28%; 
+  font-size: 16px; 
+}
+.button-outline {
+  background-color: transparent;
+  border: 2px solid rgb(224, 44, 44);
+  color: rgb(224, 44, 44);
+}
+  
+.button:hover {
+  background-color: rgb(224, 44, 44);
+  color:white;
+}
+  
+.importe {
+    font-size: 18px;
+    font-weight: bold;
+}
+  
+.ocultar {
+    display: none;
+}
+  
+.guardar {
+  margin-left: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+  
+.guardar:hover {
+  color: white;
+}
+
+.contenedor-img{
+  position: absolute;
+  top: 2%;
+  left: 10%;
+  background: linear-gradient(rgb(226, 124, 124), rgb(207, 35, 35));
+  width: 280px;
+  height:280px ;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.contenedor-img:hover{
+  background-color: rgb(213, 48, 48);
+}
+.contenedor-img img{
+  position:absolute;
+}
+
+.contenedor-img .img-1{
+  position: absolute;
+  top:8%;
+  left: 4%;
+  width:210px ;
+  height: 210px;
+  z-index: 2;
+  padding-left: 30px;
+}
+
+@media only screen and (max-width: 320px) {
+  .div-cotizador {
+    margin-top: 100%;
+    width: 80%;
+    margin-left: 3.6%;
+  }
+  .div-cotizador h2{
+    font-size: 25px;
+  }
+  label,
+  select,
+  input {
+    width: 100%;
+  }
+
+  .importe button.guardar {
+    margin-left: 0;
+  }
+  .contenedor-img{
+    margin-top: 2%;
+    margin-left: -4%;
+  }
+  .contenedor-img .img-1 {
+    top: 9%;
+    left: 2%;
+    width: 200px;
+    height: 200px;
+  }
+}

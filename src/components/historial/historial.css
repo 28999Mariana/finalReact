@@ -1,0 +1,57 @@
+.container-historial table{
+    border: 1px solid white;
+}
+  
+.container-historial tr th {
+    border: 1px solid white; 
+} 
+
+.container-historial button{
+    background-color: rgb(243, 23, 23);
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid;
+    cursor: pointer;
+    font-size: 18px;
+    position: absolute;
+    top: -38%;
+    left: -24%;
+}
+        
+.container-historial button:hover {
+    background-color: rgb(246, 85, 85);
+    color:white;
+}
+.container-historial p{
+    width: 500px;
+    height: 30px;
+    padding: 10px;
+    padding-top: 20px;
+    font-size: 20px;
+    background-color: white;
+    color: rgb(243, 23, 23);
+}
+@media only screen and (max-width: 320px) {
+    .container-coberturas.container-historial {
+      top: 40%;
+      left: 160px;
+      margin: 0;
+    }
+    .container-historial button{
+        font-size: 14px;
+        margin-left: 28%;
+        width:120px ;
+    }
+    .historial-table {
+      margin-top: 2%;
+      width: 200px;
+      margin-left: -20px;
+      padding: 0;
+    }
+
+    .container-coberturas table th,
+    .container-coberturas table td {
+    padding: 2px;
+    font-size: 12px;
+    }
+} 

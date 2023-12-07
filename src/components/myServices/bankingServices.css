@@ -1,0 +1,97 @@
+.banking{
+  background-color: rgb(75, 73, 73);
+}
+
+.descriptionText {
+  font-size: 25px; 
+  margin-left: 22%;
+  margin-top: -1%;
+  margin-bottom: 3%;
+  color: white;
+}    
+
+.titulo{
+  font-size: 38px;
+  padding: 40px;
+  color: white;
+  text-align: center;
+}
+  
+.containerCard{
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap:80px;
+  row-gap: 1rem;
+  background-color: transparent;
+  margin-left: 7.3%;
+}
+
+.cardServices{
+  background-color: white;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  width: 16%;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  row-gap: 0.5rem;
+  cursor: pointer;
+}
+.cardServices h3{
+  color:rgb(33, 32, 32);
+  font-size: 21px;
+}
+  
+.cardServices:hover{
+  outline: 1px solid #fff;
+}
+  
+.cardServices > img {
+  width: 200px;
+  margin-top: 20px;
+}
+  
+.cardServices > p{
+  width: 50%;
+  text-align: center;
+}
+
+@media (max-width: 320px) {
+  .descriptionText {
+    font-size: 18px; 
+    margin-left: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 3%;
+    margin-top: -4%;
+  }
+
+  .titulo {
+    margin-top: 5px;
+    font-size: 28px;
+    padding: 20px;
+  }
+
+  .containerCard {
+    margin-left: 0;
+    gap: 20px; 
+  }
+
+  .cardServices {
+    width: 100%; 
+    height: auto; 
+    margin-left: 0;
+  }
+
+  .cardServices > img {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .cardServices > p {
+    width: 100%;
+    text-align: center;
+  }
+}

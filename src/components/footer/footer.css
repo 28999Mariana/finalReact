@@ -1,0 +1,39 @@
+.footer-container {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    height: 350px; 
+}
+
+h2 {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-size: 34px;
+}
+
+.footer-social {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.footer-social li {
+    margin: 0 22px;
+}
+
+.footer-social a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-social i {
+    font-size: 25px; 
+}
+
+.footer-social i:hover {
+    color: #007bff;
+}
+  
